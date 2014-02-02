@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome_text">Welcome to the world of dragonoid</string>
+    <string name="right_text">right layout text inside frame</string>
+
+</resources>
