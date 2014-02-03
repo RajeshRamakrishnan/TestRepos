@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tvTitle">Title String</string>
+	<string name="rbNormal">Normal</string>
+	<string name="rbBold">Bold</string>
+	<string name="rbItalic">Italic</string>
+	
+	
+	
+</resources>
