@@ -27,15 +27,21 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				
 				EditText displayText = (EditText)findViewById(R.id.etDisplay);
-				displayText.setText("Welcome to dragonoid world..!!");
+				displayText.setText("Love you bachu..!!");
 				
 				// checking the RB click and change the font style accordingly.
 				
-				//RadioGroup rgStyle = (RadioGroup) findViewById(R.id.rgStyle);
-				RadioButton rbBold = (RadioButton)findViewById(R.id.rbBold);
+				RadioGroup rgStyle = (RadioGroup) findViewById(R.id.rgStyle);
+				/*RadioButton rbBold = (RadioButton)findViewById(R.id.rbBold);
 				RadioButton rbNormal = (RadioButton)findViewById(R.id.rbNormal);
-				RadioButton rbItalic = (RadioButton)findViewById(R.id.rbItalic);
+				RadioButton rbItalic = (RadioButton)findViewById(R.id.rbItalic);*/
 				
+				int selected = rgStyle.getCheckedRadioButtonId();
+				
+				switch (rgStyle.getId(R.id.selected)){
+				case 
+				
+				}
 				
 				
 				
