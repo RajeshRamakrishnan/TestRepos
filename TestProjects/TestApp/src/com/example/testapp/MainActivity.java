@@ -6,6 +6,9 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.RadioGroup.OnCheckedChangeListener;
 
 public class MainActivity extends Activity {
 
@@ -26,8 +29,17 @@ public class MainActivity extends Activity {
 				EditText displayText = (EditText)findViewById(R.id.etDisplay);
 				displayText.setText("Welcome to dragonoid world..!!");
 				
+				// checking the RB click and change the font style accordingly.
+				
+				//RadioGroup rgStyle = (RadioGroup) findViewById(R.id.rgStyle);
+				RadioButton rbBold = (RadioButton)findViewById(R.id.rbBold);
+				RadioButton rbNormal = (RadioButton)findViewById(R.id.rbNormal);
+				RadioButton rbItalic = (RadioButton)findViewById(R.id.rbItalic);
 				
 				
+				
+				
+			
 			}
 	
 		});
