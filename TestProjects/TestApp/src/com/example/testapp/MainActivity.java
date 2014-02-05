@@ -2,6 +2,8 @@ package com.example.testapp;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.graphics.Typeface;
+import android.text.Editable;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
@@ -27,7 +29,9 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				
 				EditText displayText = (EditText)findViewById(R.id.etDisplay);
-				displayText.setText("Love you bachu..!!");
+				displayText.setText("Welcome to the world of Dragonoid..!!");
+				
+				Editable styleText = displayText.getText();
 				
 				// checking the RB click and change the font style accordingly.
 				
@@ -37,9 +41,18 @@ public class MainActivity extends Activity {
 				RadioButton rbItalic = (RadioButton)findViewById(R.id.rbItalic);*/
 				
 				int selected = rgStyle.getCheckedRadioButtonId();
+				//RadioButton bSelected = (RadioButton)findViewById(selected);
 				
-				switch (rgStyle.getId(R.id.selected)){
-				case 
+				switch (selected){
+				case R.id.rbBold:
+					displayText.setTypeface(Typeface.DEFAULT, Typeface.BOLD);
+					break;
+				case R.id.rbItalic:
+					displayText.setTypeface(Typeface.DEFAULT, Typeface.ITALIC);
+					break;
+				case R.id.rbNormal:
+					displayText.setTypeface(Typeface.DEFAULT, Typeface.NORMAL);
+					break;
 				
 				}
 				
